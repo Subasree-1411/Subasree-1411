@@ -1,10 +1,14 @@
-   # Hi, I'm Subasree! 👋
+   #Hi,I'm Subasree! 👋
    
    - 🎨 Python Full-Stack Developer
    - 📍 Trichy, India
-   - 💻 Passionate about HTML, CSS & Web Design
+   - 💻 Passionate about HTML, CSS & Web Design, Python
    
    ## Skills
+   - Python
+   - Django
+   - React
+   - Bootstrap
    - HTML & CSS
    - JavaScript
    - Responsive Design
