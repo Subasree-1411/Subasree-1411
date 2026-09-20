@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./MediCare – Smart Health Appointment System _ Your Health, Our Priority_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230077B6' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z'/%3E%3Cpath d='M12 5v14' stroke='%233DDC97'/%3E%3Cpath d='M5 12h14' stroke='%233DDC97'/%3E%3C/svg%3E">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MediCare - Smart Health Appointment System. Find top-rated doctors, book verified video or in-clinic appointments in minutes, and manage your healthcare journey with complete clarity.">
+    <title>MediCare – Smart Health Appointment System | Your Health, Our Priority</title>
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./MediCare – Smart Health Appointment System _ Your Health, Our Priority_files/css2" rel="stylesheet">
+  <style type="text/css" data-vite-dev-id="C:/Users/DELL/OneDrive/Desktop/Subasree/src/index.css">/* ==========================================================================
+   MEDICARE DESIGN SYSTEM & GLOBAL STYLES
+   Modern Healthcare SaaS Application
+   ========================================================================== */
+
+:root {
+  /* Primary Healthcare Brand Palette */
+  --primary: #0077B6;
+  --primary-dark: #005A8C;
+  --primary-light: #E1F2FB;
+  --primary-hover: #00689F;
+  --primary-glow: rgba(0, 119, 182, 0.15);
+
+  /* Secondary & Accents */
+  --secondary: #0096C7;
+  --success: #10B981;
+  --success-light: #ECFDF5;
+  --success-text: #065F46;
+  --warning: #F59E0B;
+  --warning-light: #FEF3C7;
+  --warning-text: #92400E;
+  --danger: #EF4444;
+  --danger-light: #FEE2E2;
+  --danger-text: #991B1B;
+  
+  /* Emergency Colors */
+  --emergency-bg: #FEF2F2;
+  --emergency-border: #FCA5A5;
+  --emergency-text: #DC2626;
+
+  /* Neutrals & Surfaces */
+  --bg-main: #F7F8FC;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F1F4F9;
+  --bg-hover: #F8FAFC;
+
+  /* Typography Colors */
+  --text-main: #172033;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  --border-color: #E2E8F0;
+  --border-light: #EEF2F6;
+
+  /* Shadows & Elevations */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.03);
+  --shadow-md: 0 6px 20px rgba(15, 23, 42, 0.06), 0 2px 6px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 12px 30px rgba(15, 23, 42, 0.08), 0 4px 10px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 40px rgba(15, 23, 42, 0.12);
+
+  /* Border Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Transitions */
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reset & Base Setup */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Typography Helpers */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-success {
+  color: var(--success);
+}
+
+.text-danger {
+  color: var(--danger);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* Card Utility */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 119, 182, 0.25);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 119, 182, 0.35);
+}
+
+.btn-secondary {
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background-color: #D3EAF8;
+  color: var(--primary-dark);
+}
+
+.btn-outline {
+  border: 1.5px solid var(--border-color);
+  background-color: transparent;
+  color: var(--text-main);
+}
+
+.btn-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: #FFFFFF;
+}
+
+.btn-danger:hover {
+  background-color: #DC2626;
+}
+
+.btn-danger-outline {
+  border: 1.5px solid var(--danger-light);
+  color: var(--danger);
+  background-color: var(--danger-light);
+}
+
+.btn-danger-outline:hover {
+  background-color: #FECDCD;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-lg {
+  padding: 14px 28px;
+  font-size: 1.05rem;
+  border-radius: var(--radius-md);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.02em;
+}
+
+.badge-primary {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.badge-success {
+  background-color: var(--success-light);
+  color: var(--success-text);
+}
+
+.badge-warning {
+  background-color: var(--warning-light);
+  color: var(--warning-text);
+}
+
+.badge-danger {
+  background-color: var(--danger-light);
+  color: var(--danger-text);
+}
+
+.badge-neutral {
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+}
+
+/* Form Elements */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background-color: #FFFFFF;
+  color: var(--text-main);
+  transition: var(--transition);
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.form-error {
+  font-size: 0.8rem;
+  color: var(--danger);
+  margin-top: 4px;
+}
+
+/* Modals */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.modal-content {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  width: 100%;
+  max-width: 540px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: scaleUp 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Toast System */
+.toast-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2000;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  background: #FFFFFF;
+  color: var(--text-main);
+  box-shadow: var(--shadow-lg);
+  border-left: 4px solid var(--primary);
+  min-width: 280px;
+  max-width: 420px;
+  animation: slideInRight 0.25s ease-out;
+}
+
+.toast-success {
+  border-left-color: var(--success);
+}
+
+.toast-error {
+  border-left-color: var(--danger);
+}
+
+.toast-warning {
+  border-left-color: var(--warning);
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive Table Wrapper */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: var(--bg-subtle);
+  padding: 12px 16px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.data-table td {
+  padding: 14px 16px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-main);
+  background-color: #FFFFFF;
+}
+
+.data-table tr:hover td {
+  background-color: var(--bg-hover);
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+@media (max-width: 1024px) {
+  .grid-cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .grid-cols-4, .grid-cols-3, .grid-cols-2 { grid-template-columns: 1fr; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+</style></head>
+  <body>
+    <div id="root"><div style="display: flex; flex-direction: column; min-height: 100vh;"><header style="position: sticky; top: 0px; z-index: 100; background-color: rgb(255, 255, 255); border-bottom: 1px solid var(--border-color); box-shadow: var(--shadow-xs);"><div class="container"><div style="display: flex; align-items: center; justify-content: space-between; height: 74px; gap: 20px;"><a href="http://localhost:5173/" style="display: flex; align-items: center; gap: 10px; text-decoration: none;"><div style="width: 40px; height: 40px; border-radius: 10px; background-color: var(--primary); display: flex; align-items: center; justify-content: center; color: rgb(255, 255, 255); box-shadow: rgba(0, 119, 182, 0.3) 0px 4px 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg></div><div><span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); letter-spacing: -0.02em;">Medi<span style="color: var(--primary);">Care</span></span><span style="display: block; font-size: 0.68rem; color: var(--text-muted); font-weight: 600; letter-spacing: 0.04em; margin-top: -2px;">CLINICAL NETWORK</span></div></a><nav class="desktop-nav" style="display: flex; align-items: center; gap: 22px;"><a class="active" href="http://localhost:5173/" aria-current="page" style="font-weight: 600; font-size: 0.92rem; color: var(--primary); border-bottom: 2px solid var(--primary); padding: 6px 0px; transition: var(--transition);">Home</a><a class="" href="http://localhost:5173/find-doctors" style="font-weight: 600; font-size: 0.92rem; color: var(--text-secondary); border-bottom: 2px solid transparent; padding: 6px 0px; transition: var(--transition);">Find Doctors</a><a class="" href="http://localhost:5173/patient-dashboard" style="font-weight: 600; font-size: 0.92rem; color: var(--text-secondary); border-bottom: 2px solid transparent; padding: 6px 0px; transition: var(--transition);">Appointments</a><a class="" href="http://localhost:5173/patient-dashboard" style="font-weight: 600; font-size: 0.92rem; color: var(--text-secondary); border-bottom: 2px solid transparent; padding: 6px 0px; transition: var(--transition);">Patient Dashboard</a><a class="" href="http://localhost:5173/doctor-portal" style="font-weight: 600; font-size: 0.92rem; color: var(--text-secondary); border-bottom: 2px solid transparent; padding: 6px 0px; transition: var(--transition);">Doctor Portal</a><a class="" href="http://localhost:5173/admin" style="font-weight: 600; font-size: 0.92rem; color: var(--text-secondary); border-bottom: 2px solid transparent; padding: 6px 0px; transition: var(--transition);">Admin</a></nav><div class="desktop-actions" style="display: flex; align-items: center; gap: 14px;"><button class="emergency-btn" title="Emergency Care hotline" style="display: flex; align-items: center; gap: 6px; background-color: var(--emergency-bg); border: 1px solid var(--emergency-border); color: var(--emergency-text); padding: 7px 14px; border-radius: var(--radius-full); font-weight: 700; font-size: 0.82rem; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call" aria-hidden="true"><path d="M13 2a9 9 0 0 1 9 9"></path><path d="M13 6a5 5 0 0 1 5 5"></path><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg><span>Emergency Support</span></button><div style="position: relative;"><button title="Notifications" style="position: relative; width: 40px; height: 40px; border-radius: 50%; background-color: var(--bg-subtle); display: flex; align-items: center; justify-content: center; color: var(--text-secondary);"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg><span style="position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; border-radius: 50%; background-color: var(--danger);"></span></button></div><button class="btn btn-primary" style="padding: 8px 16px; font-size: 0.88rem;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-plus" aria-hidden="true"><path d="M16 18h6"></path><path d="M16 2v3"></path><path d="M19 15v6"></path><path d="M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3"></path><path d="M3 9h18"></path><path d="M8 2v3"></path></svg><span>Book Appointment</span></button><div style="position: relative;"><button title="User profile &amp; role switcher" style="display: flex; align-items: center; gap: 8px; padding: 4px 8px 4px 4px; border-radius: var(--radius-full); border: 1px solid var(--border-color); background-color: rgb(255, 255, 255); cursor: pointer;"><img src="./MediCare – Smart Health Appointment System _ Your Health, Our Priority_files/photo-1534528741775-53994a69daeb" alt="Subasree R" style="width: 32px; height: 32px; border-radius: 50%; object-fit: cover;"><div style="text-align: left; line-height: 1.1;"><div style="font-weight: 700; font-size: 0.82rem; color: var(--text-main);">Suba</div><div style="font-size: 0.68rem; color: var(--text-muted); text-transform: capitalize;">patient</div></div><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true" style="color: var(--text-muted);"><path d="m6 9 6 6 6-6"></path></svg></button></div></div><div class="mobile-toggle" style="display: none;"><button aria-label="Toggle mobile menu" style="padding: 8px; color: var(--text-main);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg></button></div></div></div></header><style>
+        @media (max-width: 992px) {
+          .desktop-nav { display: none !important; }
+          .desktop-actions .emergency-btn { display: none !important; }
+          .mobile-toggle { display: block !important; }
+        }
+        @media (max-width: 600px) {
+          .desktop-actions .btn-primary span { display: none; }
+        }
+      </style><main style="flex: 1 1 0%;"><div class="home-page"><section style="background: linear-gradient(rgb(255, 255, 255) 0%, rgb(241, 246, 251) 100%); padding-top: 60px; padding-bottom: 80px; border-bottom: 1px solid var(--border-light); position: relative; overflow: hidden;"><div class="container"><div class="hero-grid" style="display: grid; grid-template-columns: minmax(0px, 1.2fr) minmax(0px, 0.8fr); gap: 48px; align-items: center;"><div><div style="display: inline-flex; align-items: center; gap: 8px; background-color: var(--primary-light); color: var(--primary-dark); padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; margin-bottom: 20px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check text-primary" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg><span>VERIFIED CLINICAL HEALTHCARE NETWORK</span></div><h1 style="font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 20px; color: var(--text-main);">Your Health, <span style="color: var(--primary);">Our Priority</span></h1><p style="font-size: 1.12rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 36px; max-width: 560px;">Find top-rated doctors, book verified video or in-clinic appointments in minutes, and manage your healthcare journey with complete clarity.</p><div class="card" style="padding: 24px; box-shadow: var(--shadow-lg); border: 1px solid rgb(223, 232, 242); border-radius: var(--radius-lg);"><div style="display: flex; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 12px;"><button type="button" style="padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600; background-color: var(--primary); color: rgb(255, 255, 255); transition: var(--transition);">All Visits</button><button type="button" style="padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600; background-color: transparent; color: var(--text-secondary); transition: var(--transition);">Video Visit</button><button type="button" style="padding: 6px 14px; border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 600; background-color: transparent; color: var(--text-secondary); transition: var(--transition);">In-Person</button></div><form><div class="hero-search-form" style="display: grid; grid-template-columns: 1.4fr 1.2fr 0.9fr auto; gap: 12px; align-items: center;"><div style="position: relative;"><label style="font-size: 0.74rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 4px;">SPECIALTY OR DOCTOR</label><div style="display: flex; align-items: center; gap: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true" style="color: var(--primary);"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg><input type="text" placeholder="Cardiology, Dr. Jenkins..." value="" style="border-width: medium; border-style: none; border-color: currentcolor; border-image: none; outline: none; width: 100%; font-size: 0.92rem; font-weight: 500; color: var(--text-main); background-color: transparent;"></div></div><div class="search-field-divider" style="position: relative; border-left: 1px solid var(--border-light); padding-left: 12px;"><label style="font-size: 0.74rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 4px;">LOCATION</label><div style="display: flex; align-items: center; gap: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin" aria-hidden="true" style="color: var(--primary);"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><input type="text" placeholder="San Francisco, CA" value="San Francisco, CA" style="border-width: medium; border-style: none; border-color: currentcolor; border-image: none; outline: none; width: 100%; font-size: 0.92rem; font-weight: 500; color: var(--text-main); background-color: transparent;"></div></div><div class="search-field-divider" style="position: relative; border-left: 1px solid var(--border-light); padding-left: 12px;"><label style="font-size: 0.74rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 4px;">DATE</label><div style="display: flex; align-items: center; gap: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar" aria-hidden="true" style="color: var(--primary);"><path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path></svg><select style="border-width: medium; border-style: none; border-color: currentcolor; border-image: none; outline: none; width: 100%; font-size: 0.92rem; font-weight: 600; color: var(--text-main); background-color: transparent; cursor: pointer;"><option value="Today">Today</option><option value="Tomorrow">Tomorrow</option><option value="This Weekend">This Weekend</option><option value="Next Week">Next Week</option></select></div></div><button type="submit" class="btn btn-primary" style="padding: 12px 22px; border-radius: var(--radius-md);"><span>Find Doctors</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></form><div style="display: flex; align-items: center; gap: 10px; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border-light); font-size: 0.82rem; flex-wrap: wrap;"><span style="color: var(--text-muted); font-weight: 600;">Popular:</span><button type="button" class="popular-tag-btn" style="background-color: var(--bg-subtle); padding: 4px 10px; border-radius: var(--radius-full); color: var(--text-secondary); font-weight: 500; transition: var(--transition);">Cardiology</button><button type="button" class="popular-tag-btn" style="background-color: var(--bg-subtle); padding: 4px 10px; border-radius: var(--radius-full); color: var(--text-secondary); font-weight: 500; transition: var(--transition);">Pediatrics</button><button type="button" class="popular-tag-btn" style="background-color: var(--bg-subtle); padding: 4px 10px; border-radius: var(--radius-full); color: var(--text-secondary); font-weight: 500; transition: var(--transition);">Dermatology</button></div></div></div><div style="position: relative;"><div class="card" style="padding: 28px; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); border: 1px solid rgb(213, 228, 242); background-color: rgb(255, 255, 255); position: relative;"><div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;"><span class="badge badge-success" style="gap: 4px;"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="#10B981" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"></path></svg> Available Today</span><div style="display: flex; align-items: center; gap: 4px; color: rgb(234, 179, 8); font-size: 0.9rem; font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#EAB308" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><span style="color: var(--text-main);">4.9</span><span style="color: var(--text-muted); font-weight: 400;">(318 reviews)</span></div></div><div style="display: flex; gap: 18px; align-items: center; margin-bottom: 20px;"><img src="./MediCare – Smart Health Appointment System _ Your Health, Our Priority_files/photo-1559839734-2b71ea197ec2" alt="Dr. Sarah Jenkins, MD" style="width: 80px; height: 80px; border-radius: var(--radius-md); object-fit: cover; border: 2px solid var(--primary-light);"><div><h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main);">Dr. Sarah Jenkins, MD</h3><p style="font-size: 0.88rem; font-weight: 600; color: var(--primary);">Senior Cardiologist, MD</p><p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">St. Jude Medical Center • 14 Yrs Exp</p></div></div><div style="background-color: var(--bg-subtle); padding: 12px 16px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;"><div><span style="font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Consultation Fee</span><div style="font-size: 1.3rem; font-weight: 800; color: var(--text-main);">$120 <span style="font-size: 0.8rem; font-weight: 500; color: var(--text-muted);">/ visit</span></div></div><span class="badge badge-primary"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video" aria-hidden="true"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg> HD Video Consultation</span></div><div style="margin-bottom: 22px;"><div style="font-size: 0.82rem; font-weight: 700; color: var(--text-secondary); margin-bottom: 8px;">Available Today:</div><div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;"><button type="button" style="padding: 8px 4px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background-color: rgb(255, 255, 255); color: var(--text-main); font-weight: 700; font-size: 0.82rem; text-align: center; transition: var(--transition);">02:15 PM</button><button type="button" style="padding: 8px 4px; border-radius: var(--radius-sm); border: 2px solid var(--primary); background-color: var(--primary-light); color: var(--primary-dark); font-weight: 700; font-size: 0.82rem; text-align: center; transition: var(--transition);">03:30 PM</button><button type="button" style="padding: 8px 4px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); background-color: rgb(255, 255, 255); color: var(--text-main); font-weight: 700; font-size: 0.82rem; text-align: center; transition: var(--transition);">04:45 PM</button></div></div><button class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1rem; margin-bottom: 14px;"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"></path></svg><span>Book Instant Slot</span></button><div style="display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 0.78rem; color: var(--text-muted);"><span>HD Video Consultations</span><span>•</span><span>Zero app download required</span></div></div></div></div></div></section><section style="background-color: rgb(255, 255, 255); border-bottom: 1px solid var(--border-light); padding: 36px 0px;"><div class="container"><div class="stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center;"><div><div style="font-size: 2.2rem; font-weight: 800; color: var(--primary); letter-spacing: -0.02em;">450+</div><div style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Specialists</div></div><div><div style="font-size: 2.2rem; font-weight: 800; color: var(--success); letter-spacing: -0.02em;">98%</div><div style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Satisfaction Rate</div></div><div><div style="font-size: 2.2rem; font-weight: 800; color: var(--text-main); letter-spacing: -0.02em;">15-Min</div><div style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Avg Response Time</div></div><div><div style="font-size: 2.2rem; font-weight: 800; color: var(--primary-dark); letter-spacing: -0.02em;">HIPAA</div><div style="font-size: 0.9rem; font-weight: 600; color: var(--text-secondary);">Encrypted PHI Security</div></div></div></div></section><section style="padding: 80px 0px;"><div class="container"><div style="text-align: center; max-width: 650px; margin: 0px auto 48px;"><span class="badge badge-primary" style="margin-bottom: 12px;">CLINICAL DEPARTMENTS</span><h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 12px;">Popular Medical Specialties</h2><p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.6;">Access top board-certified physicians across every clinical field.</p></div><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 24px; margin-bottom: 40px;"><div class="card specialty-card" style="padding: 24px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius-lg); border: 1px solid var(--border-light); transition: var(--transition);"><div><div class="specialty-icon-box" style="width: 52px; height: 52px; border-radius: 14px; background-color: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg></div><h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">Cardiology</h3><div style="font-size: 0.82rem; font-weight: 600; color: var(--primary); margin-bottom: 10px;">48 Active Physicians</div><p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">Specialized care for heart conditions, hypertension, coronary disease, and cardiovascular wellness.</p></div><div style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--primary);"><span>View Specialists</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><style>
+        .specialty-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--primary-light);
+        }
+        .specialty-card:hover .specialty-icon-box {
+          background-color: var(--primary);
+          color: #FFFFFF;
+        }
+      </style></div><div class="card specialty-card" style="padding: 24px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius-lg); border: 1px solid var(--border-light); transition: var(--transition);"><div><div class="specialty-icon-box" style="width: 52px; height: 52px; border-radius: 14px; background-color: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles lucide-stars" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></div><h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">Dermatology</h3><div style="font-size: 0.82rem; font-weight: 600; color: var(--primary); margin-bottom: 10px;">36 Active Physicians</div><p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">Expert treatment for skin, hair, and nail health, including acne, eczema, and skin cancer screenings.</p></div><div style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--primary);"><span>View Specialists</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><style>
+        .specialty-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--primary-light);
+        }
+        .specialty-card:hover .specialty-icon-box {
+          background-color: var(--primary);
+          color: #FFFFFF;
+        }
+      </style></div><div class="card specialty-card" style="padding: 24px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius-lg); border: 1px solid var(--border-light); transition: var(--transition);"><div><div class="specialty-icon-box" style="width: 52px; height: 52px; border-radius: 14px; background-color: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain" aria-hidden="true"><path d="M12 18V5"></path><path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path><path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path><path d="M18 18a4 4 0 0 0 2-7.464"></path><path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path><path d="M6 18a4 4 0 0 1-2-7.464"></path><path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path></svg></div><h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">Neurology</h3><div style="font-size: 0.82rem; font-weight: 600; color: var(--primary); margin-bottom: 10px;">29 Active Physicians</div><p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">Advanced diagnosis and care for migraines, nerve disorders, spine conditions, and brain health.</p></div><div style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--primary);"><span>View Specialists</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><style>
+        .specialty-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--primary-light);
+        }
+        .specialty-card:hover .specialty-icon-box {
+          background-color: var(--primary);
+          color: #FFFFFF;
+        }
+      </style></div><div class="card specialty-card" style="padding: 24px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius-lg); border: 1px solid var(--border-light); transition: var(--transition);"><div><div class="specialty-icon-box" style="width: 52px; height: 52px; border-radius: 14px; background-color: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-baby" aria-hidden="true"><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"></path><path d="M15 12h.01"></path><path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"></path><path d="M9 12h.01"></path></svg></div><h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">Pediatrics</h3><div style="font-size: 0.82rem; font-weight: 600; color: var(--primary); margin-bottom: 10px;">42 Active Physicians</div><p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">Compassionate pediatric healthcare from infancy through adolescence with developmental support.</p></div><div style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--primary);"><span>View Specialists</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><style>
+        .specialty-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--primary-light);
+        }
+        .specialty-card:hover .specialty-icon-box {
+          background-color: var(--primary);
+          color: #FFFFFF;
+        }
+      </style></div><div class="card specialty-card" style="padding: 24px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; border-radius: var(--radius-lg); border: 1px solid var(--border-light); transition: var(--transition);"><div><div class="specialty-icon-box" style="width: 52px; height: 52px; border-radius: 14px; background-color: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; transition: var(--transition);"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bone" aria-hidden="true"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"></path></svg></div><h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; color: var(--text-main);">Orthopedic Surgery</h3><div style="font-size: 0.82rem; font-weight: 600; color: var(--primary); margin-bottom: 10px;">31 Active Physicians</div><p style="font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">Surgical and non-surgical solutions for joints, sports injuries, fractures, and musculoskeletal care.</p></div><div style="display: flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--primary);"><span>View Specialists</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><style>
+        .specialty-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-md);
+          border-color: var(--primary-light);
+        }
+        .specialty-card:hover .specialty-icon-box {
+          background-color: var(--primary);
+          color: #FFFFFF;
+        }
+      </style></div></div><div style="text-align: center;"><button class="btn btn-outline btn-lg"><span>Explore All 32 Specialties</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></section><style>
+        @media (max-width: 992px) {
+          .hero-grid {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+          }
+          .hero-search-form {
+            grid-template-columns: 1fr 1fr !important;
+          }
+          .search-field-divider {
+            border-left: none !important;
+            padding-left: 0 !important;
+          }
+          .stats-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 32px !important;
+          }
+        }
+        @media (max-width: 600px) {
+          .hero-search-form {
+            grid-template-columns: 1fr !important;
+          }
+          .stats-grid {
+            grid-template-columns: 1fr !important;
+          }
+        }
+        .popular-tag-btn:hover {
+          background-color: var(--primary-light) !important;
+          color: var(--primary) !important;
+        }
+      </style></div></main><footer style="background-color: rgb(255, 255, 255); border-top: 1px solid var(--border-color); margin-top: 80px;"><div class="container" style="padding-top: 60px; padding-bottom: 40px;"><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; margin-bottom: 40px;"><div><div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;"><div style="width: 36px; height: 36px; border-radius: 8px; background-color: var(--primary); display: flex; align-items: center; justify-content: center; color: rgb(255, 255, 255);"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg></div><span style="font-size: 1.3rem; font-weight: 800; color: var(--text-main);">Medi<span style="color: var(--primary);">Care</span></span></div><p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px;">Your Health, Our Priority. Providing verified clinical appointments, instant video consultations, and transparent patient care across leading healthcare networks.</p><div style="display: flex; gap: 12px; align-items: center;"><span class="badge badge-success" style="gap: 4px;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg> HIPAA Compliant</span><span class="badge badge-primary" style="gap: 4px;"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> 256-Bit SSL</span></div></div><div><h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; color: var(--text-main);">Patient Navigation</h4><ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem;"><li><a href="http://localhost:5173/find-doctors" style="color: var(--text-secondary); transition: var(--transition);">Find Top Doctors</a></li><li><a href="http://localhost:5173/patient-dashboard" style="color: var(--text-secondary);">My Appointments</a></li><li><a href="http://localhost:5173/patient-dashboard" style="color: var(--text-secondary);">Patient Portal</a></li><li><a href="http://localhost:5173/doctor-portal" style="color: var(--text-secondary);">Doctor Clinical Portal</a></li><li><a href="http://localhost:5173/admin" style="color: var(--text-secondary);">Hospital Admin Suite</a></li></ul></div><div><h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; color: var(--text-main);">Top Specialties</h4><ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem;"><li><a href="http://localhost:5173/find-doctors?specialty=Cardiology" style="color: var(--text-secondary);">Cardiology &amp; Heart</a></li><li><a href="http://localhost:5173/find-doctors?specialty=Neurology" style="color: var(--text-secondary);">Neurology &amp; Brain</a></li><li><a href="http://localhost:5173/find-doctors?specialty=Pediatrics" style="color: var(--text-secondary);">Pediatric Health</a></li><li><a href="http://localhost:5173/find-doctors?specialty=Dermatology" style="color: var(--text-secondary);">Dermatology &amp; Skin</a></li><li><a href="http://localhost:5173/find-doctors?specialty=Orthopedic+Surgery" style="color: var(--text-secondary);">Orthopedic Surgery</a></li></ul></div><div><h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 16px; color: var(--text-main);">Clinical Support</h4><div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem; color: var(--text-secondary);"><div style="display: flex; align-items: center; gap: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call text-primary" aria-hidden="true"><path d="M13 2a9 9 0 0 1 9 9"></path><path d="M13 6a5 5 0 0 1 5 5"></path><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg><span>1-800-MED-CARE (Toll Free)</span></div><div style="display: flex; align-items: center; gap: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-primary" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg><span>clinical.support@medicare.health</span></div><div style="display: flex; align-items: center; gap: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin text-primary" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span>San Francisco Bay Medical District, CA</span></div></div></div></div><div style="border-top: 1px solid var(--border-light); padding-top: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 0.82rem; color: var(--text-muted);"><div>© 2026 MediCare Health Technologies Inc. All rights reserved.</div><div style="display: flex; gap: 20px;"><a href="http://localhost:5173/#privacy" style="color: var(--text-muted);">Privacy Policy</a><a href="http://localhost:5173/#terms" style="color: var(--text-muted);">Terms of Clinical Service</a><a href="http://localhost:5173/#security" style="color: var(--text-muted);">Patient Rights &amp; HIPAA</a></div></div></div></footer></div></div>
+    <script type="module" src="./MediCare – Smart Health Appointment System _ Your Health, Our Priority_files/main.jsx"></script>
+  
+
+</body></html>
