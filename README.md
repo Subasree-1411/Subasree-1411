@@ -1,18 +1,14 @@
    # Hi, I'm Subasree! 👋
    
-   - 🎨 Frontend Developer
-   - 📍 Chennai, India
+   - 🎨 Python Full-Stack Developer
+   - 📍 Trichy, India
    - 💻 Passionate about HTML, CSS & Web Design
    
    ## Skills
    - HTML & CSS
    - JavaScript
    - Responsive Design
-   
-   ## Featured Projects
-   - [Portfolio](https://github.com/Subasree-1411/port.html)
-   - [Frontend Projects](https://github.com/Subasree-1411/Frontend-projects)
-   
+      
    ### Let's Connect
-   - 📧 Email: your-email@example.com
-   - 🌐 Portfolio: your-portfolio.com
+   - 📧 Email: subasree1411@gmail.com
+   - 🌐 Portfolio: https://portfolio-suba-sree.netlify.app/
