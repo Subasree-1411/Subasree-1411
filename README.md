@@ -1,16 +1,18 @@
-## Hi there 👋
-
-<!--
-**Subasree-1411/Subasree-1411** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+   # Hi, I'm Subasree! 👋
+   
+   - 🎨 Frontend Developer
+   - 📍 Chennai, India
+   - 💻 Passionate about HTML, CSS & Web Design
+   
+   ## Skills
+   - HTML & CSS
+   - JavaScript
+   - Responsive Design
+   
+   ## Featured Projects
+   - [Portfolio](https://github.com/Subasree-1411/port.html)
+   - [Frontend Projects](https://github.com/Subasree-1411/Frontend-projects)
+   
+   ### Let's Connect
+   - 📧 Email: your-email@example.com
+   - 🌐 Portfolio: your-portfolio.com
